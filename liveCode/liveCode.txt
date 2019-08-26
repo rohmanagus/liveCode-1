@@ -1,0 +1,30 @@
+tambah dan simpan newNama
+jika nilai kurang dari sama dengan 100 dan nilai lebih dari sama dengan 80
+	-tampilkan 'A'
+jika nilai kurang dari sama dengan 79 dan nilai lebih dari sama dengan 65
+	-tampilkan 'B'
+jika nilai kurang dari 64 dan nilai lebih dari sama dengan 50
+	-tampilkan 'C'
+jika nilai kurang dari sama dengan 49 dan nilai lebih  dari sama dengan 35
+	-tampilkan 'D'
+jika nilai kurang dari sama dengan 34 dan nilai kurang dari 0
+	-tampilkan 'E'
+tampilkan jika nilai kurang dari sama dengan 0 atau lebih dari sama dengan 100
+	-tampilkan 'Nilai invalid'
+
+var nilai=101;
+if(nilai <= 100 && nilai >= 80 ){
+  console.log('A')
+}else if(nilai <=79 && nilai >=65){
+  console.log('B')
+}else if(nilai <=64 && nilai >=50){
+  console.log('C')
+}else if(nilai <=49 && nilai <= 35){
+  console.log('D')
+}else if(nilai <=34 && nilai >=0){
+  console.log('E')
+}
+
+if (nilai < 0 || nilai > 100){
+  console.log('number invalid')
+}
